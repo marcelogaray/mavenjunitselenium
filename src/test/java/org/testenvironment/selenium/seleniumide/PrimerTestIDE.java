@@ -43,6 +43,12 @@ public class PrimerTestIDE {
 
     }
 
+    @Test
+    public void testHolamundo()
+    {
+        System.out.println("Hello World!!!");
+    }
+
     @After
     public void tearDown() throws Exception {
         driver.quit();
